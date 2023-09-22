@@ -36,7 +36,7 @@ header {
   padding-left: 156px;
   padding-right: 156px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 .header-position {
@@ -227,22 +227,39 @@ header {
   padding-bottom: 32px;
 }
 
+.portfolio-container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 .fourth-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
-  column-gap: 48px;
+  gap: 24px;
 }
 
 .portfolio-list {
   background: var(--WHITE, #fff);
+  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  width: 360px;
+  height: 420px;
+}
+
+.portfolio-tekst {
+  margin-left: 16px;
+}
+
+.portfolio-nt {
+  margin-left: 16px;
 }
 
 .main-footer {
+  background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 120px;
 }
 
@@ -273,7 +290,6 @@ header {
 }
 
 .footer-position {
-  background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 864px;
