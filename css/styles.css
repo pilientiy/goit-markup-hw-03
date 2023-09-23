@@ -255,11 +255,6 @@ li {
   text-align: center;
 }
 
-.portfolio-container {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
 .fourth-section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -269,21 +264,23 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list {
   background: var(--WHITE, #fff);
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  width: 360px;
-  height: 420px;
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-tekst {
-  margin-left: 16px;
+  margin-bottom: 8px;
 }
 
-.portfolio-nt {
-  margin-left: 16px;
+.app {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .main-footer {
