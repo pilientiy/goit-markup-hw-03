@@ -211,6 +211,10 @@ li {
   gap: 24px;
 }
 
+.name-and-position {
+  padding: 32px 0;
+}
+
 .third-header {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
@@ -218,8 +222,8 @@ li {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
-  margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .list-point {
@@ -235,7 +239,7 @@ li {
   gap: 24px;
 }
 
-.list-element-secnd-section {
+.list-element-second-section {
   width: calc((100% - 72px) / 4);
 }
 
@@ -248,6 +252,7 @@ li {
   letter-spacing: 0.32px;
   max-width: 264px;
   padding-bottom: 32px;
+  text-align: center;
 }
 
 .portfolio-container {
@@ -283,7 +288,7 @@ li {
 
 .main-footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .footer-tekst {
