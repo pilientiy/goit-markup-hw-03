@@ -195,7 +195,7 @@ li {
   margin: -1px;
   border: 0;
   padding: 0;
-
+  /* hidden */
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
