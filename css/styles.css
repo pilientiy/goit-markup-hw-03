@@ -36,7 +36,7 @@ img {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-  /*outline: 2px solid red;*/
+  outline: 2px solid red;
 }
 
 .header-position {
@@ -176,6 +176,17 @@ li {
   padding-bottom: 120px;
 }
 
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0); /* Обрезка "невидимой" области */
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
 .second-header {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -224,6 +235,10 @@ li {
   gap: 24px;
 }
 
+.list-element-secnd-section {
+  width: calc((100% - 72px) / 4);
+}
+
 .normal-tekst {
   color: var(--SLATE, #434455);
   font-family: Roboto;
@@ -268,7 +283,7 @@ li {
 
 .main-footer {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .footer-tekst {
@@ -283,6 +298,7 @@ li {
 }
 
 .footer-logo {
+  display: inline-block;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -291,6 +307,7 @@ li {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .logo-footer-noncolor {
