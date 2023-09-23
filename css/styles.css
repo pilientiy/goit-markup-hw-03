@@ -36,7 +36,7 @@ img {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 
 .header-position {
@@ -124,24 +124,24 @@ li {
 .first-section {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 188px 0;
-   margin: 0 auto;Ъ
 }
 
-.effective-solutions {
-  padding: 188px 472px 188px 472px;
-  text-align: center;
+.effective-solution {
+  padding-left: 316px;
+  padding-right: 316px;
 }
 
 .main-header {
+  max-width: 496px;
   color: var(--WHITE, #fff);
-  text-align: center;
+  /* Header 1 */
   font-family: Roboto;
   font-size: 56px;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
   margin-bottom: 48px;
-  max-width: 496px;
 }
 
 .btt {
@@ -160,6 +160,7 @@ li {
   border-radius: 4px;
   padding: 16px 32px;
   margin-left: 163px;
+  height: 56px;
 }
 
 .btt:hover {
