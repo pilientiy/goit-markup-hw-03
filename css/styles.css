@@ -176,17 +176,6 @@ li {
   padding-bottom: 120px;
 }
 
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0); /* Обрезка "невидимой" области */
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
-
 .second-header {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
@@ -197,6 +186,18 @@ li {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 .third-section {
