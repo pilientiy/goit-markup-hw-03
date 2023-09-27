@@ -272,7 +272,6 @@ li {
 
 .portfolio-list {
   background: var(--WHITE, #fff);
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
   width: calc((100% - 48px) / 3);
 }
 
